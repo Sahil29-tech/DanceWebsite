@@ -1,0 +1,53 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body 
+    nav#navbar
+        ul
+            div#logo 
+            img(src="/static/logo.png")
+            li #[a(href='/') Home] 
+            li #[a(href='/') About] 
+            li #[a(href='/') contact us] 
+            li #[a(href='/') servies] 
+            li #[a(href='/') classInfo]
+            div#logo1
+            img(src="/static/logo.png")
+    section#introsection 
+        div Welcome to DanceAcademy 
+        div Eat sleep Dance Repeat 
+
+    section#missionsection 
+        h2 our mission 
+        div.card
+            p this is para 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/1.png")
+        div.card 
+            p this is para
+            div.card-box 
+                div.card-img 
+                    img(src="/static/2.png")
+        
+        div.card 
+            p this is para
+            div.card-box 
+                div.card-img 
+                    img(src="/static/3.png") 
+    section#sponsorsection 
+        | section for sponsors 
+        div#sponsor 
+        img(src="/static/logo1.png", alt="sponsors img" , class="spimage") 
+        img(src="/static/logo2.png", alt="sponsors img" , class="spimage")
+        img(src="/static/logo3.png", alt="sponsors img" , class="spimage")
+        img(src="/static/logo4.png", alt="sponsors img" , class="spimage")
+
+
+    footer#footer 
+        | copyright Ⓒ 2019 DanceWeb.com
+    script 
+      include ../static/index.js  
+      

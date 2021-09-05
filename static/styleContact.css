@@ -1,0 +1,23 @@
+.myForm{
+    display: flex;
+    flex-direction: column;
+    /* width: 220px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.myinput{
+    width: 400px;
+    margin: 7px 0px;
+    border-radius: 5px;
+}
+
+.btn{
+    margin: 3px 0px;
+}
+.container{
+    min-height: 85vh;
+}
+h1{
+    text-align: center;
+}
